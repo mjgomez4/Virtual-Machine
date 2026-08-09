@@ -18,7 +18,7 @@ sample .vm test programs and their expected .cmp/.tst/.asm output, organized by 
 make vmtranslator
 ```
 
-### Usage
+### Usage (Run the executable)
 The translator executable accepts either a single .vm file or a directory containing multiple .vm files. In the
 directory case, all files are translated into a single combined .asm file named after the directory. After program execution, take the output (.asm file) and compare it against its
 respective .tst file in the CPUEmulator test suite (see "Project Structure" above).
