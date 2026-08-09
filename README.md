@@ -10,7 +10,7 @@ FibonacciElement, and StaticsTest.
 into HACK assembly, and a VMTranslator class which contains the main function and handles input/output duties). Also contains 
 sample .vm test programs and their expected .cmp/.tst/.asm output, organized by category (ProgramFlow, FunctionCalls).
 
-- testing suites: Contains the .bat and .sh files required for running the CPUEmulator and VMEmulator testing suites locally.
+- testing suites: Contains the .bat and .sh files required for running the CPUEmulator and VMEmulator testing suites locally. In order to run each respective testing suite, you'll need to add the "testing-suites/" directory to your system's PATH variable. Next, type 'CPUEmulator', and 'VMEmulator' into your local terminal to launch each respective application separately.
 
 ### Build
 
